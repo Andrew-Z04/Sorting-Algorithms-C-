@@ -108,7 +108,7 @@ int main() {
 
   // If there is not data, end the program
   if (data.empty()) {
-    cerr << "Klaida: Duomenų nerasta arba failas tuščias." << endl;
+    cerr << "Error: No data or problem reading a file!" << endl;
     return 1;
   }
 
